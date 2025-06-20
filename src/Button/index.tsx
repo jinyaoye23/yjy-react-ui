@@ -3,11 +3,29 @@ import classNames from "classnames";
 import './index.less';
 
 export interface ButtonProps {
+  /**
+   * 按钮类型
+   */
   variant?: 'primary' | 'default' | 'dashed' | 'text' | 'link';
+  /**
+   * 按钮大小
+   */
   size?: 'small' | 'middle' | 'large';
+  /**
+   * 点击事件
+   */
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  /**
+   * 按钮内容
+   */
   children?: React.ReactNode;
+  /**
+   * 自定义类名
+   */
   className?: string;
+  /**
+   * 是否禁用
+   */
   disabled?: boolean;
 }
 

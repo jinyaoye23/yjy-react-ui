@@ -7,7 +7,7 @@
 ```jsx
 import { Button } from 'yjy-react-ui';
 
-export default () => <Button type="primary" size="middle">Hello dumi</Button>;
+export default () => <Button variant="primary" size="middle">Hello dumi</Button>;
 ```
 
 ## 按钮类型
@@ -19,11 +19,11 @@ import { Button } from 'yjy-react-ui';
 
 export default () => (
   <div style={{ display: 'flex', gap: '8px' }}>
-    <Button type="primary">Primary</Button>
-    <Button type="default">Default</Button>
-    <Button type="dashed">Dashed</Button>
-    <Button type="text">Text</Button>
-    <Button type="link">Link</Button>
+    <Button variant="primary">Primary</Button>
+    <Button variant="default">Default</Button>
+    <Button variant="dashed">Dashed</Button>
+    <Button variant="text">Text</Button>
+    <Button variant="link">Link</Button>
   </div>
 );
 ```
@@ -54,7 +54,7 @@ import { Button } from 'yjy-react-ui';
 export default () => (
   <div style={{ display: 'flex', gap: '8px' }}>
     <Button disabled>Disabled</Button>
-    <Button type="primary" disabled>Disabled</Button>
+    <Button variant="primary" disabled>Disabled</Button>
   </div>
 );
 ```
