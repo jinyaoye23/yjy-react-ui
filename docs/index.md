@@ -1,12 +1,11 @@
 ---
 hero:
   title: library
-  description: A react library developed with dumi
+  description: 这是为个人定制的组件库
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 立即使用
+      link:  /components/button
+
 features:
   - title: Hello
     emoji: 💎
